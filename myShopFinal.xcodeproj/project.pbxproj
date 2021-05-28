@@ -18,6 +18,9 @@
 		CD0F7A9E266026C000E4D7FF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7A9D266026C000E4D7FF /* ImagePicker.swift */; };
 		CD0F7AAB266028C900E4D7FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0F7AAA266028C900E4D7FF /* GoogleService-Info.plist */; };
 		CD9776202660972600DD86A2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97761F2660972600DD86A2 /* UserModel.swift */; };
+		CD9776282661427000DD86A2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9776272661427000DD86A2 /* Extension.swift */; };
+		CD97762E266145D200DD86A2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97762D266145D200DD86A2 /* AuthService.swift */; };
+		CD977633266145ED00DD86A2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD977632266145ED00DD86A2 /* StorageService.swift */; };
 		F5AF152FCBE889EBD7C8F3DB /* Pods_myShopFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1721322C4EC3E1523107EA42 /* Pods_myShopFinal.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		CD0F7A9D266026C000E4D7FF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		CD0F7AAA266028C900E4D7FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD97761F2660972600DD86A2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CD9776272661427000DD86A2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CD97762D266145D200DD86A2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		CD977632266145ED00DD86A2 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		D8A0A56C4293AD87028A3CD5 /* Pods-myShopFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myShopFinal.release.xcconfig"; path = "Target Support Files/Pods-myShopFinal/Pods-myShopFinal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +127,7 @@
 		CD0F7A4E26601FD400E4D7FF /* myShopFinal */ = {
 			isa = PBXGroup;
 			children = (
+				CD97762C266145BE00DD86A2 /* Services */,
 				CD97761E2660971100DD86A2 /* Models */,
 				CD0F7AAA266028C900E4D7FF /* GoogleService-Info.plist */,
 				CD0F7A9C2660269F00E4D7FF /* Utilities */,
@@ -181,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				CD0F7A9D266026C000E4D7FF /* ImagePicker.swift */,
+				CD9776272661427000DD86A2 /* Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -191,6 +199,15 @@
 				CD97761F2660972600DD86A2 /* UserModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CD97762C266145BE00DD86A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD97762D266145D200DD86A2 /* AuthService.swift */,
+				CD977632266145ED00DD86A2 /* StorageService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F4E1BAEFA55BEAB381FEC7CC /* Frameworks */ = {
@@ -377,10 +394,13 @@
 			files = (
 				CD0F7A982660239D00E4D7FF /* SignUpView.swift in Sources */,
 				CD0F7A5226601FD400E4D7FF /* ContentView.swift in Sources */,
+				CD9776282661427000DD86A2 /* Extension.swift in Sources */,
 				CD0F7A9E266026C000E4D7FF /* ImagePicker.swift in Sources */,
 				CD0F7A902660210200E4D7FF /* SignInView.swift in Sources */,
 				CD9776202660972600DD86A2 /* UserModel.swift in Sources */,
 				CD0F7A5026601FD400E4D7FF /* myShopFinalApp.swift in Sources */,
+				CD977633266145ED00DD86A2 /* StorageService.swift in Sources */,
+				CD97762E266145D200DD86A2 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
