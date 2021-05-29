@@ -13,7 +13,7 @@ import FirebaseStorage
 class StorageService{
     
     static var storage = Storage.storage()
-    static var storageRoot = storage.reference(forURL: "gs://flexigram-fbd00.appspot.com/profile")
+    static var storageRoot = storage.reference(forURL:"gs://myshopfinal-ba27d.appspot.com/profile")
     static var storageProfile = storageRoot.child("profile")
     
     static func storageProfileId(userId:String)-> StorageReference {

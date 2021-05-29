@@ -1,62 +1,50 @@
+import Foundation
 import SwiftUI
-import PhotosUI
 
 struct ImagePicker : UIViewControllerRepresentable {
+    @Binding var pickedImage: Image?
+    @Binding var showImagePicker : Bool
+    @Binding var imageData : Data
     
-    @Binding var picker : Bool
-    @Binding var img_Data : Data
-    
-    func makeCoordinator() -> Coordinator {
-        return ImagePicker.Coordinator(parent: self)
+    func makeCoordinator() -> ImagePicker.Coordinator {
+        Coordinator(self)
     }
     
-    func makeUIViewController(context: Context) -> PHPickerViewController {
-        
-        var config = PHPickerConfiguration()
-        config.selectionLimit = 1
-        
-        let controller = PHPickerViewController(configuration: config)
-        
-        controller.delegate = context.coordinator
-        
-        return controller
+    func makeUIViewController(context: Context) -> UIImagePickerController {
+        let picker = UIImagePickerController()
+        picker.delegate = context.coordinator
+        picker.allowsEditing = true
+        return picker
     }
     
-    func updateUIViewController(_ uiViewController: PHPickerViewController, context: Context) {
-        
+    func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {
         
     }
     
-    class Coordinator : NSObject,PHPickerViewControllerDelegate{
+    
+    
+    
+    
+    
+    class Coordinator : NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
         
         var parent : ImagePicker
         
-        init(parent : ImagePicker) {
+        init(_ parent : ImagePicker) {
             self.parent = parent
         }
         
-        func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
+        func imagePickerController (_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info:
+            [UIImagePickerController.InfoKey: Any]) {
+            let uiImage = info[.editedImage] as! UIImage
+            parent.pickedImage = Image(uiImage: uiImage)
             
-            if results.isEmpty{
-                self.parent.picker.toggle()
-                return
+            if let mediaData = uiImage.jpegData(compressionQuality: 0.5) {
+                parent.imageData = mediaData
             }
+            parent.showImagePicker = false
             
-            let item = results.first!.itemProvider
             
-            if item.canLoadObject(ofClass: UIImage.self){
-                
-                item.loadObject(ofClass: UIImage.self) { (image, err) in
-                    if err != nil{return}
-                    
-                    let imageData = image as! UIImage
-                    
-                    DispatchQueue.main.async {
-                        self.parent.img_Data = imageData.jpegData(compressionQuality: 0.5)!
-                        self.parent.picker.toggle()
-                    }
-                }
-            }
         }
     }
 }
