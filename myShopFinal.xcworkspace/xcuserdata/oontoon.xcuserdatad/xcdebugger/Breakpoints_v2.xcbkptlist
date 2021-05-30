@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F1CDD491-DDB5-494C-B8F6-B88F5F9A8F6C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF412D37-FB1A-4F0A-9869-0D3342D49EF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myShopFinal/Services/StorageService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "StorageService"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F721F52-6D8D-41E3-9922-8903B86E8636"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myShopFinal/Services/PostService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PostService"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0F721F52-6D8D-41E3-9922-8903B86E8636 - ba57500cba2caa36"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myShopFinal.PostService.deinit"
+                  moduleName = "myShopFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oontoon/Desktop/Xcode/myShopFinal/myShopFinal/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "0F721F52-6D8D-41E3-9922-8903B86E8636 - 106dcf776f14ac05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myShopFinal.PostService.__deallocating_deinit"
+                  moduleName = "myShopFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oontoon/Desktop/Xcode/myShopFinal/myShopFinal/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "0F721F52-6D8D-41E3-9922-8903B86E8636 - cacc1493a56f9c53"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myShopFinal.PostService.__allocating_init() -&gt; myShopFinal.PostService"
+                  moduleName = "myShopFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oontoon/Desktop/Xcode/myShopFinal/myShopFinal/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "17">
+               </Location>
+               <Location
+                  uuid = "0F721F52-6D8D-41E3-9922-8903B86E8636 - c7d1bdd9b3718646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myShopFinal.PostService.init() -&gt; myShopFinal.PostService"
+                  moduleName = "myShopFinal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oontoon/Desktop/Xcode/myShopFinal/myShopFinal/Services/PostService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
