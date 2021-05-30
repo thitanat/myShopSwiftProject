@@ -9,6 +9,7 @@ import Foundation
 import Firebase
 import SwiftUI
 
+//ใช้ในการ load post เฉพาะของ user ใน session ที่ login อยู่
 class ProfileService: ObservableObject {
     
     @Published var posts: [PostModel] = []

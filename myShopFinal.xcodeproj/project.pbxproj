@@ -32,6 +32,7 @@
 		CD977633266145ED00DD86A2 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD977632266145ED00DD86A2 /* StorageService.swift */; };
 		CD9776382661527900DD86A2 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9776372661527900DD86A2 /* SessionStore.swift */; };
 		CD97763D2661582E00DD86A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97763C2661582E00DD86A2 /* HomeView.swift */; };
+		CDC4BBB32663885C003DACB3 /* LoadAllService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4BBB22663885C003DACB3 /* LoadAllService.swift */; };
 		CDED484A2661726D0026F3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDED48492661726D0026F3E8 /* ContentView.swift */; };
 		F5AF152FCBE889EBD7C8F3DB /* Pods_myShopFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1721322C4EC3E1523107EA42 /* Pods_myShopFinal.framework */; };
 /* End PBXBuildFile section */
@@ -87,6 +88,7 @@
 		CD977632266145ED00DD86A2 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		CD9776372661527900DD86A2 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		CD97763C2661582E00DD86A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDC4BBB22663885C003DACB3 /* LoadAllService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadAllService.swift; sourceTree = "<group>"; };
 		CDED48492661726D0026F3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8A0A56C4293AD87028A3CD5 /* Pods-myShopFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myShopFinal.release.xcconfig"; path = "Target Support Files/Pods-myShopFinal/Pods-myShopFinal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,6 +252,7 @@
 				CD8EA1392662AF2E0003E6F2 /* PostService.swift */,
 				CD8EA13E2662DBB40003E6F2 /* PostCardService.swift */,
 				CD8EA1432662DCF80003E6F2 /* ProfileService.swift */,
+				CDC4BBB22663885C003DACB3 /* LoadAllService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				CD0F7A5026601FD400E4D7FF /* myShopFinalApp.swift in Sources */,
 				CD977633266145ED00DD86A2 /* StorageService.swift in Sources */,
 				CD97762E266145D200DD86A2 /* AuthService.swift in Sources */,
+				CDC4BBB32663885C003DACB3 /* LoadAllService.swift in Sources */,
 				CD8EA1492662DEED0003E6F2 /* PostCardImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

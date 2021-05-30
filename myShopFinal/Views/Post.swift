@@ -21,6 +21,7 @@ struct Post: View {
     @State private var text = ""
     @State private var selectedCategory: Int = 0
     @State private var categoryTypes = ["Car","SmartPhone","Fashion"]
+    @State private var allPostVar = "all"
 
     
     func loadImage(){
@@ -39,7 +40,7 @@ struct Post: View {
         self.clear()
         //firebase
         
-        PostService.uploadPost(caption: text, category: categoryTypes[selectedCategory], imageData: imageData, onSuccess: {
+        PostService.uploadPost(caption: text, category: categoryTypes[selectedCategory] ,allPost: allPostVar, imageData: imageData, onSuccess: {
             self.clear()
         }) {
             (errorMessage) in

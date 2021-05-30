@@ -72,7 +72,7 @@ class StorageService{
         }
     }
     
-    static func savePostPhoto(userId: String, caption: String, postId: String, imageData: Data, category: String, metadata:
+    static func savePostPhoto(userId: String, caption: String, postId: String, imageData: Data, category: String, allPost :String, metadata:
             StorageMetadata, storagePostRef: StorageReference, onSuccess: @escaping()->Void, onError:@escaping(_
             errorMessage: String)->Void){
         
@@ -98,7 +98,7 @@ class StorageService{
                     
                     let post = PostModel.init(caption: caption, ownerID: userId, postID: postId,
                                               username: Auth.auth().currentUser!.displayName!, profile: Auth.auth().currentUser!.photoURL!.absoluteString
-                                              , mediaUrl: metaImageUrl, category: category)
+                                              , mediaUrl: metaImageUrl, category: category, allPost: allPost)
                     
                     guard let dict = try? post.asDictionary() else {return}
                     

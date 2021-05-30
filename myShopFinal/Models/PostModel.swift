@@ -16,4 +16,5 @@ struct PostModel: Encodable, Decodable {
     var profile: String
     var mediaUrl: String
     var category: String
+    var allPost : String
 }
