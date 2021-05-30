@@ -133,19 +133,21 @@ struct SignUpView: View {
                     }
             }.padding()
             
-        }/*.sheet(isPresented: $showingImagePicker, onDismiss: loadImage){
+        }.sheet(isPresented: $showingImagePicker, onDismiss: loadImage){
             ImagePicker(pickedImage: self.$pickedImage, showImagePicker: self.$showingImagePicker, imageData: self.$imageData)
-        }.actionSheet(title: Text(""), button: [
-                        .default(Text("Choose A Photo")){
-                            self.sourceType = .photoLibrary
-                            self.showingImagePicker = true
-                        },
-                        .default(Text("Take a photo")){
-                            self.sourceType = .camera
-                            self.showingImagePicker = true
-                        },.cancel()
-            
-        ])*/
-        
+        }.actionSheet(isPresented: $showingActionSheet){
+            ActionSheet(title: Text(""), buttons: [
+                .default(Text("Choose A Photo")){
+                    self.sourceType = .photoLibrary
+                    self.showingImagePicker = true
+                    
+                },
+                .default(Text("Take A Photo")){
+                    self.sourceType = .camera
+                    self.showingImagePicker = true
+                    
+                },.cancel()
+            ])
+        }
     }
 }

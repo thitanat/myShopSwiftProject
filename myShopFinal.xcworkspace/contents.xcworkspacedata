@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Post.swift">
+   </FileRef>
+   <FileRef
       location = "group:myShopFinal.xcodeproj">
    </FileRef>
    <FileRef

@@ -16,6 +16,16 @@
 		CD0F7A982660239D00E4D7FF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7A972660239D00E4D7FF /* SignUpView.swift */; };
 		CD0F7A9E266026C000E4D7FF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7A9D266026C000E4D7FF /* ImagePicker.swift */; };
 		CD8EA10E266219F70003E6F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD8EA10D266219F70003E6F2 /* GoogleService-Info.plist */; };
+		CD8EA11B26622AD80003E6F2 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA11A26622AD80003E6F2 /* ProductPage.swift */; };
+		CD8EA12126622AFA0003E6F2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA12026622AFA0003E6F2 /* Car.swift */; };
+		CD8EA12626622B030003E6F2 /* Smartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA12526622B030003E6F2 /* Smartphone.swift */; };
+		CD8EA12B26622B0D0003E6F2 /* Fashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA12A26622B0D0003E6F2 /* Fashion.swift */; };
+		CD8EA130266274B00003E6F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA12F266274B00003E6F2 /* Post.swift */; };
+		CD8EA13526627B6E0003E6F2 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA13426627B6E0003E6F2 /* PostModel.swift */; };
+		CD8EA13A2662AF2E0003E6F2 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA1392662AF2E0003E6F2 /* PostService.swift */; };
+		CD8EA13F2662DBB40003E6F2 /* PostCardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA13E2662DBB40003E6F2 /* PostCardService.swift */; };
+		CD8EA1442662DCF80003E6F2 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA1432662DCF80003E6F2 /* ProfileService.swift */; };
+		CD8EA1492662DEED0003E6F2 /* PostCardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8EA1482662DEED0003E6F2 /* PostCardImage.swift */; };
 		CD9776202660972600DD86A2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97761F2660972600DD86A2 /* UserModel.swift */; };
 		CD9776282661427000DD86A2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9776272661427000DD86A2 /* Extension.swift */; };
 		CD97762E266145D200DD86A2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97762D266145D200DD86A2 /* AuthService.swift */; };
@@ -61,6 +71,16 @@
 		CD0F7A972660239D00E4D7FF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CD0F7A9D266026C000E4D7FF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		CD8EA10D266219F70003E6F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CD8EA11A26622AD80003E6F2 /* ProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
+		CD8EA12026622AFA0003E6F2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CD8EA12526622B030003E6F2 /* Smartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartphone.swift; sourceTree = "<group>"; };
+		CD8EA12A26622B0D0003E6F2 /* Fashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion.swift; sourceTree = "<group>"; };
+		CD8EA12F266274B00003E6F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CD8EA13426627B6E0003E6F2 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CD8EA1392662AF2E0003E6F2 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		CD8EA13E2662DBB40003E6F2 /* PostCardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardService.swift; sourceTree = "<group>"; };
+		CD8EA1432662DCF80003E6F2 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		CD8EA1482662DEED0003E6F2 /* PostCardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardImage.swift; sourceTree = "<group>"; };
 		CD97761F2660972600DD86A2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CD9776272661427000DD86A2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		CD97762D266145D200DD86A2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -174,6 +194,7 @@
 		CD0F7A7D26601FE900E4D7FF /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CD8EA1482662DEED0003E6F2 /* PostCardImage.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -181,10 +202,13 @@
 		CD0F7A8E266020E900E4D7FF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD8EA11F26622AE10003E6F2 /* Category */,
 				CD0F7A8F2660210200E4D7FF /* SignInView.swift */,
 				CD0F7A972660239D00E4D7FF /* SignUpView.swift */,
 				CD97763C2661582E00DD86A2 /* HomeView.swift */,
 				CDED48492661726D0026F3E8 /* ContentView.swift */,
+				CD8EA11A26622AD80003E6F2 /* ProductPage.swift */,
+				CD8EA12F266274B00003E6F2 /* Post.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -198,10 +222,21 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CD8EA11F26622AE10003E6F2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD8EA12026622AFA0003E6F2 /* Car.swift */,
+				CD8EA12526622B030003E6F2 /* Smartphone.swift */,
+				CD8EA12A26622B0D0003E6F2 /* Fashion.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		CD97761E2660971100DD86A2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				CD97761F2660972600DD86A2 /* UserModel.swift */,
+				CD8EA13426627B6E0003E6F2 /* PostModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +247,9 @@
 				CD97762D266145D200DD86A2 /* AuthService.swift */,
 				CD977632266145ED00DD86A2 /* StorageService.swift */,
 				CD9776372661527900DD86A2 /* SessionStore.swift */,
+				CD8EA1392662AF2E0003E6F2 /* PostService.swift */,
+				CD8EA13E2662DBB40003E6F2 /* PostCardService.swift */,
+				CD8EA1432662DCF80003E6F2 /* ProfileService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -400,15 +438,25 @@
 			files = (
 				CD0F7A982660239D00E4D7FF /* SignUpView.swift in Sources */,
 				CDED484A2661726D0026F3E8 /* ContentView.swift in Sources */,
+				CD8EA12B26622B0D0003E6F2 /* Fashion.swift in Sources */,
 				CD9776282661427000DD86A2 /* Extension.swift in Sources */,
+				CD8EA13526627B6E0003E6F2 /* PostModel.swift in Sources */,
+				CD8EA13F2662DBB40003E6F2 /* PostCardService.swift in Sources */,
 				CD0F7A9E266026C000E4D7FF /* ImagePicker.swift in Sources */,
+				CD8EA12126622AFA0003E6F2 /* Car.swift in Sources */,
+				CD8EA13A2662AF2E0003E6F2 /* PostService.swift in Sources */,
+				CD8EA1442662DCF80003E6F2 /* ProfileService.swift in Sources */,
 				CD0F7A902660210200E4D7FF /* SignInView.swift in Sources */,
+				CD8EA12626622B030003E6F2 /* Smartphone.swift in Sources */,
 				CD97763D2661582E00DD86A2 /* HomeView.swift in Sources */,
+				CD8EA11B26622AD80003E6F2 /* ProductPage.swift in Sources */,
 				CD9776202660972600DD86A2 /* UserModel.swift in Sources */,
+				CD8EA130266274B00003E6F2 /* Post.swift in Sources */,
 				CD9776382661527900DD86A2 /* SessionStore.swift in Sources */,
 				CD0F7A5026601FD400E4D7FF /* myShopFinalApp.swift in Sources */,
 				CD977633266145ED00DD86A2 /* StorageService.swift in Sources */,
 				CD97762E266145D200DD86A2 /* AuthService.swift in Sources */,
+				CD8EA1492662DEED0003E6F2 /* PostCardImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,5 +11,8 @@ target 'myShopFinal' do
   pod 'Firebase/Storage'
   pod 'Firebase/Firestore'
   pod 'URLImage'
+  pod 'SDWebImage'
+  pod 'SDWebImageSwiftUI'
+
 
 end
