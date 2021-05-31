@@ -6,9 +6,7 @@
 //
 
 import Foundation
-
 struct PostModel: Encodable, Decodable {
-    
     var caption: String
     var ownerID: String
     var postID: String

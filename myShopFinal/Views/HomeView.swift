@@ -17,11 +17,20 @@ struct HomeView: View {
         
         NavigationView{
             VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20){
+                Image("MyShop")
+                    .resizable()
+                    .frame(width: 75, height: 75)
+                    .cornerRadius(20)
                 NavigationLink(destination: ProductPage()){
-                    Text("My post").navigationBarTitle("")
+                    
+                    Text("View My Post").fontWeight(.bold)
+                        .navigationBarTitle("")
                         .navigationBarHidden(true)
+                        //.padding(.trailing, 250)
+                        .foregroundColor(Color("Color"))
+                        
                 }
-                Text("Recommended !!!").font(.system(size: 35.0))
+                Text("Recommended").font(.system(size: 35.0)).foregroundColor(Color.gray)
                 recommendation()
                 CategoryList()
             }
@@ -40,23 +49,38 @@ struct recommendation : View {
 
 struct CategoryList : View{
     var body: some View {
-        List {
+        VStack {
             NavigationLink(destination: Car()){
                 HStack{
                     Text("Car")
+                        .font(.headline)
+                        .foregroundColor(Color("Color"))
+                        //.fontWeight(.bold)
                 }
-            }
+            }.padding(20)
             NavigationLink(destination: Smartphone()){
                 HStack{
                     Text("Smart Phone")
+                        .font(.headline)
+                        .foregroundColor(Color("Color")
+                        
+                        )
+                        //.fontWeight(.bold)
                 }
-            }
+            }.padding(20)
             NavigationLink(destination: Fashion()){
                 HStack{
                     Text("Fashion")
+                        .font(.headline)
+                        .foregroundColor(Color("Color")
+                        )
+                        //.fontWeight(.bold)
                 }
-            }
-        }
+            }.padding(20)
+        }.frame(width: UIScreen.main.bounds.width-30, height: 220)
+        .background(Color.white) // change bg to white from red
+        .cornerRadius(35)
+        .shadow(radius: 5)
     }
 }
 
@@ -120,11 +144,11 @@ struct RecommendedProduct : View {
                         )
                     }
                 }
-                .frame(width: UIScreen.main.bounds.width, height: 380)
+                .frame(width: UIScreen.main.bounds.width, height: 500)
                 .offset(x: self.op)
                 
             }
-            .background(Color.black.opacity(0.1).edgesIgnoringSafeArea(.bottom))
+            .background(Color.white)
             .animation(.spring())
             .onAppear {
                 
@@ -154,13 +178,16 @@ struct FrameView : View {
                 .resizable()
             Text(data.name)
                 .fontWeight(.bold)
+                .foregroundColor(Color.white)
                 .padding(.vertical, 10)
                 .padding(.leading)
             
         }
-        .frame(width: UIScreen.main.bounds.width - 20, height: 410)
-        .background(Color.white) // change bg to white from red
+        .frame(width: UIScreen.main.bounds.width - 70, height: 290)
+        .background(Color("Color")) // change bg to white from red
         .cornerRadius(25)
+        .padding(.bottom, 100)
+        .shadow(radius: 5)
     }
 }
 
